@@ -28,7 +28,7 @@ RDEPEND="=sec-policy/selinux-base-${PVR}"
 PDEPEND="unconfined? ( sec-policy/selinux-unconfined )"
 DEPEND=""
 
-MODS="application authlogin bootloader clock consoletype cron dmesg fstools getty hostname hotplug init iptables libraries locallogin logging lvm miscfiles modutils mount mta netutils nscd portage raid rsync selinuxutil setrans ssh staff storage su sysadm sysnetwork tmpfiles udev userdomain usermanage unprivuser xdg"
+MODS="application authlogin bootloader clock consoletype cron dmesg fstools getty hostname hotplug init iptables libraries locallogin logging lvm miscfiles modutils mount mta netutils nscd portage raid selinuxutil setrans ssh staff storage su sysadm sysnetwork tmpfiles udev userdomain usermanage unprivuser xdg"
 LICENSE="GPL-2"
 SLOT="0"
 S="${WORKDIR}/"
